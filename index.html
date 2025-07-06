@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=""viewport" content="width=device-width, initial-scle=1"/>
+        <title>Sweetlife Bakery</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="topbar">
+                <h1 class="logo">Sweet<span>Life</span> Bakery</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Ưu đãi</a></li>
+                        <li><a href="#">Liên lạc</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="banner">
+                <img src="./banner.jpg" alt="Banner tiệm bánh">
+                <div class="banner-text">
+                    <h2>Bánh tươi mỗi ngày - Ngọt ngào từng khoảnh khắc</h2>
+                    <p>Đến với SweetLife để tận hưởng những chiếc bánh thủ công tuyệt hảo!</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="content-box">
+            <h2>Sản phẩm nổi bật</h2>
+            <ul>
+                <li>Bánh mousse dâu tây</li>
+                <li>Bánh mì hạnh nhân giòn</li>
+                <li>Macaron nhiều vị</li>
+            </ul>
+
+            <h2>Combo trong tuần</h2>
+            <ol>
+                <li>Combo ngọt ngào: Mousse + Macaron + Trà Đào</li>
+                <li>Combo sáng sớm: Bánh mì + Cà phê + Bánh quy</li>
+            </ol>
+
+            <h2>Thông tin nhanh</h2>
+            <dl>
+                <dt>Giờ mở cửa</dt>
+                <dd>7h00 - 21h00(Hằng ngày></dd>
+                <dt>Địa chỉ:</dt>
+                <dd>123 Đường Bánh Ngọt, Quận 5, TP.HCM</dd>                
+            </dl>
+
+            <table>
+                <caption>Bảng giá tiêu biểu</caption>
+                <thead>
+                    <tr>
+                        <th>Tên bánh</th>
+                        <th>Kích thước</th>
+                        <th>Gía</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td> 16cm</td>
+                        <td>120.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Bánh Kem bơ</td>
+                        <td>20cm</td>
+                        <td>180.000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr><br>
+            <form>
+                <h2>Đặt bánh ngay</h2>
+                <label for="name">Tên khách hàng:</label><br>
+                <input type="text" id="name" name="name" required placeholder="*"><br><br>
+                <label for="email">Email liên hệ:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+                <label for="cake">Chọn loại bánh:</label><br>
+                <select id="cake" name="cake">
+                    <option value="Tiramisu">Tiramisu</option>
+                    <option value="Creamcake">Bánh kem bơ</option>
+                    <option value="macaron">Macaron mix vị</option>
+                </select><br><br>
+                <button type="submit">Gửi đơn hàng</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy SweetLife Bakery. All rights reserved</p>
+        </footer>
+    </body>
+</html>
